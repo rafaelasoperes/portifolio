@@ -1,0 +1,39 @@
+:root {
+    
+    --bg-body: #dde1e4;
+    --branco: #ffffff;
+    --preto: #000000;
+    
+    --bg_sobre: #e1d6f6;
+    --roxoClaro: #a74fff;
+
+    
+    --cinzaClaro: #6b728e;
+    --cinzaChumbo: #474e68;
+    --cinzaGrafite: #404258;
+    
+    --bg_lilasMedio: #b1a3d3;
+    --bg_lilasEscuro: #826cb9;
+
+    --roxoMedio: #6500cc;
+
+}
+
+body {
+    background: var(--bg-body);
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+

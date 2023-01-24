@@ -1,0 +1,20 @@
+.container_sobre {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg_sobre) ;
+    padding: 6rem ;
+
+}
+
+.titulo_sobre {
+    margin-bottom: 2%;
+    font-size : 2rem;
+    font-weight : 700;
+
+}
+
+.texto_sobre {
+    width: 70%;
+    font-size: 1.5rem;
+    font-weight: 400;
+}

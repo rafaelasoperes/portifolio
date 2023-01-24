@@ -1,0 +1,37 @@
+.cabecalho {
+    display: flex;
+    aling-content: center;
+    justify-content: space-between;
+    margin:2% 5%;
+    
+}
+
+.nome {
+    font-weight: 600
+}
+
+.menu_cabecalho{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;  
+}
+
+.menu_nav {
+    color: var(--preto);
+    text-decoration : none;
+    margin-right: 2em; 
+}
+
+.menu_nav:hover {
+    text-decoration: underline;
+}
+
+.menu_nav:active {
+    color: var(--bg_lilasMedio);
+}
+
+#email{
+    font-weight: 800;
+
+}

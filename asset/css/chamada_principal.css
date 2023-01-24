@@ -1,0 +1,44 @@
+.chamada_principal {
+    margin: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.texto_principal {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.texto_descritivo {
+    font-size: 1.7rem;
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+
+}
+
+.midias-sociais {
+    display: flex;
+    margim-bottom: 2%;
+}
+
+.rede-sociais {
+    color: var(--preto);
+    text-decoration: none;
+    margin-right: 1em;
+    font-weight: 300;
+}
+
+.rede-sociais:hover {
+    text-decoration: underline;
+    color: var(--bg_lilasEscuro);
+}
+
+.imagem_pessoal {
+
+    width: 368px;
+    height: 368px;
+    border-radius: 50%;
+    box-shadow: 5px;
+}

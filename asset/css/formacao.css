@@ -1,0 +1,54 @@
+
+.formacao-academica {
+    background: var(--bg_sobre);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 6rem;
+
+}
+
+.titulo_formacao {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.cursos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.listas-cursos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;  
+    gap: 10px;
+}
+
+.container-image {
+    display: flex;
+    background: var(--branco);
+    width: 368px;
+    height: 318px;
+}
+
+.image-curso {
+    width: 190px;
+    margin: auto;
+}
+
+.detalhes-cursos {
+    display: flex;
+    flex-direction: column;
+    width: 368px;
+    gap: 10px;
+}
+
+.nome-curso {
+    font-size: 18px;
+    font-weight: 700;
+}
