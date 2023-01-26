@@ -42,3 +42,37 @@
     border-radius: 50%;
     box-shadow: 5px;
 }
+
+@media (max-width: 420px) {
+
+    .chamada_principal {
+        margin: 5%;
+        flex-direction: column-reverse;       
+    }
+
+    .imagem_pessoal {
+
+        width: 120px;
+        height: 120px;
+        margin-bottom: 1rem;
+    }
+
+    .texto_principal {
+        font-size: 1em;
+    }
+
+    .texto_descritivo {
+        font-size: 0.75em;    
+    }
+
+    .rede-sociais {
+        font-size: 0.75em;
+        margin-right: 0.5em;
+    }
+    
+    .vetor_seta {
+        width: 7px;
+        height: 7px
+    }
+
+}

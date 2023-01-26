@@ -9,8 +9,6 @@
     margin-bottom: 2%;
     font-size : 2rem;
     font-weight : 700;
-    
-
 }
 
 .componentes-skill-hobbies {
@@ -42,6 +40,38 @@
 
 }
 
-.nome-skill-hobbies {
+
+@media (max-width:420px) {
+    .container-skills-hobbies {
+        padding: 10px;
+    }
+
+    .titulo-skill-hobbies {
+        margin:10px;
+        font-size : 1em;
+    }
+
+    .componentes-skill-hobbies {
+        flex-wrap: wrap;  
+        justify-content: space-evenly;
+    }
+
+    .listas-componentes {
+        width: 116px;
+        height: 108px;
+        margin: 5px;
+        padding: 1rem;
+    }
+
+    .image-skill-hobbies {
+        width: 20px;
+        height: 20px;
+        margin-bottom: 0.7rem;
+    }
+
+    .nome-skill-hobbies {
+        font-size: 0.75em;
+    }
+    
 
 }

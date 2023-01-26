@@ -1,4 +1,3 @@
-
 .formacao-academica {
     background: var(--bg_sobre);
     display: flex;
@@ -51,4 +50,46 @@
 .nome-curso {
     font-size: 18px;
     font-weight: 700;
+}
+
+
+@media (max-width: 420px) {
+    .formacao-academica {
+        padding: 1rem;
+    }
+
+    .titulo_formacao {
+        font-size: 1em;
+    }
+
+    .cursos {
+        flex-direction: column;
+    }
+
+    .listas-cursos{
+         
+        gap: 1em;
+    }
+
+    .container-image {
+        width: 296px;
+        height: 118px;
+    }
+
+    .image-curso {
+        width: 90px;
+        margin: auto;
+    }
+
+    .detalhes-cursos {
+        align-items: center;
+    }
+    
+    .nome-curso {
+        font-size: 0.75em;
+    }
+
+    .periodo-curso {
+        font-size:0.60em;
+    }
 }

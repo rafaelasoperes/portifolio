@@ -17,13 +17,13 @@
     justify-content: space-between;  
 }
 
-.menu_nav {
+.menu_nav , .email{
     color: var(--preto);
     text-decoration : none;
     margin-right: 2em; 
 }
 
-.menu_nav:hover {
+.menu_nav:hover , .email:hover {
     text-decoration: underline;
 }
 
@@ -33,5 +33,29 @@
 
 #email{
     font-weight: 800;
+
+}
+
+@media (max-width: 420px) {
+    .cabecalho {
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .menu_nav {
+        display: none;
+    }
+
+    .nome , .email {
+        font-size: 0.75em;
+        text-align: center;
+    }
+
+    #email {
+        font-weight: 400;
+        margin-right: 0; 
+        text-decoration: none;
+    }
+
 
 }
